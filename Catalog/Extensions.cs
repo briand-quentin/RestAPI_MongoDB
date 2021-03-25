@@ -11,7 +11,7 @@ namespace Catalog
     {
         public static ItemDto AsDto(this Item item)
         {
-            return new ItemDto
+            return new()
             {
                 Id = item.Id,
                 CreatedDate = item.CreatedDate,
